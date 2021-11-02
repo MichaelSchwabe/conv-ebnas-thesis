@@ -6,7 +6,6 @@ Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung
 
 Die Ordner Struktur kann folgend beschrieben werden ->
 ```
-├── Abbildungen (Abbildungen - die auch in der Arbeit vorkommen)
 ├── Code (dedizierter Ordner mit dem Quellcode)
 ├── Experimente 
 │   ├── Experimente ID 1 bis 13
