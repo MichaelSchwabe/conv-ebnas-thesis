@@ -1,7 +1,16 @@
 # conv-ebnas-thesis
 Convolutional Evolutionary based Neural Architecture Search - Repository for the Master of Science Thesis
 
-Dieses Repo dient dazu, zusätzliche Informationen bereit zu stellen.
+Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung zu stellen.
+Die Ordner Struktur kann folgend beschrieben werden ->
+
+**
+
+
+
+[Instanziierung GenomeHandler](#Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen)
+
+
 
 
 ## Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen
@@ -65,3 +74,6 @@ model = evo.run(dataset=dataset,
                   epochs=5)
 print(model.summary())
 ```
+
+
+
