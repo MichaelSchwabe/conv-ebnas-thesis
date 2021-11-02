@@ -4,13 +4,25 @@ Convolutional Evolutionary based Neural Architecture Search - Repository for the
 Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung zu stellen.
 Die Ordner Struktur kann folgend beschrieben werden ->
 
-**
-
-
-
-[Instanziierung GenomeHandler](#Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen)
-
-
+```
+├── src
+│   ├── controller
+│   │   ├── **/*.css
+│   ├── views
+│   ├── model
+│   ├── index.js
+├── public
+│   ├── css
+│   │   ├── **/*.css
+│   ├── images
+│   ├── js
+│   ├── index.html
+├── dist (or build
+├── node_modules
+├── package.json
+├── package-lock.json 
+└── .gitignore
+```
 
 
 ## Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen
