@@ -30,7 +30,7 @@ Die Ordner Struktur kann folgend beschrieben werden ->
 ```
 
 
-## Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen
+## Instanziierung und Definition des Search Spaces
 ```python GenomeHandler (Search Space)
 genome_handler = GenomeHandler(max_conv_layers=10, 
                                max_dense_layers=4, #inklusive des finalen DenseLayer
@@ -40,7 +40,7 @@ genome_handler = GenomeHandler(max_conv_layers=10,
                                n_classes=10)
 ```
 
-## Definition bzw. finale determinierung des Search Spaces, der Search Strategy und der PErformance Estimation Strategy
+## Definition bzw. finale determinierung des Search Spaces, der Search Strategy und der Performance Estimation Strategy
 ```python Evolution (determine Search Strategy and Performance Estimation)
 evo = Evolution(genome_handler, data_path="log.csv")
 model = evo.run(dataset=dataset,
@@ -60,7 +60,7 @@ from keras import backend as K
 
 import tensorflow as tf
 
-# Das eigene Verfahren
+# Das Verfahren
 from evolution import Evolution
 from genome_handler import GenomeHandler
 
