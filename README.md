@@ -1,7 +1,10 @@
 # conv-ebnas-thesis
 Convolutional Evolutionary based Neural Architecture Search - Repository for the Master of Science Thesis
 
+Dieses Repo dient dazu, zusätzliche Informationen bereit zu stellen.
 
+
+## Definition bzw. des Search Spaces sowie der Input und die zu suchenden Klassen
 ```python GenomeHandler (Search Space)
 genome_handler = GenomeHandler(max_conv_layers=10, 
                                max_dense_layers=4, #inklusive des finalen DenseLayer
@@ -10,6 +13,8 @@ genome_handler = GenomeHandler(max_conv_layers=10,
                                input_shape=x_train.shape[1:],
                                n_classes=10)
 ```
+
+## Definition bzw. finale determinierung des Search Spaces, der Search Strategy und der PErformance Estimation Strategy
 ```python Evolution (determine Search Strategy and Performance Estimation)
 evo = Evolution(genome_handler, data_path="log.csv")
 model = evo.run(dataset=dataset,
@@ -17,6 +22,8 @@ model = evo.run(dataset=dataset,
                   pop_size=20,
                   epochs=5)
 ```
+
+## Run Skript
 ```python Complete Code with Import
 from __future__ import print_function
 from keras.datasets import mnist
