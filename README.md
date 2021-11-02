@@ -2,8 +2,8 @@
 Convolutional Evolutionary based Neural Architecture Search - Repository for the Master of Science Thesis
 
 Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung zu stellen. 
-Die Arbeit wird erst nach der Prüfung durch die Betreuer veröffentlicht. 
-Das betrifft auch die Verwendeten Abbildungen und darstellen von anderen Autoren etc.
+Die schriftliche Arbeit (Thesis an sich) wird erst nach der Prüfung durch die Betreuer veröffentlicht. 
+Das betrifft auch die verwendeten Abbildungen und Darstellungen anderer Autoren.
 
 
 Die Ordner Struktur kann folgend beschrieben werden ->
