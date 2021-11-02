@@ -1,26 +1,30 @@
 # conv-ebnas-thesis
 Convolutional Evolutionary based Neural Architecture Search - Repository for the Master of Science Thesis
 
-Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung zu stellen.
-Die Ordner Struktur kann folgend beschrieben werden ->
+Dieses Repo dient dazu, zusätzliches Material aus den Messreihen zur Verfügung zu stellen. Die Arbeit wird erst nach der Prüfung durch die Betreuer veröffentlicht.
 
+
+Die Ordner Struktur kann folgend beschrieben werden ->
 ```
-├── src
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
-├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
-│   ├── index.html
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json 
+├── Abbildungen (Abbildungen - die auch in der Arbeit vorkommen)
+├── Code (dedizierter Ordner mit dem Quellcode)
+├── Experimente 
+│   ├── Experimente ID 1 bis 13
+│   │   ├── kategorische Abbildung Aktivierungsfunkiton (Histogramme)
+│   │   ├── Messreihe als Graph (Zeitreihenplot)
+│   │   ├── model (strukturelle Abbildung, Model-Summary)
+│   │   ├── desc*.xlsx (Zusammenfassung des Genomregisters)
+│   │   ├── *.xlsx (Genomregister)
+│   │   ├── *.py (Code für die Ausführung der Messreihe)
+│   ├── Experimente ID 14 (TFNE Code und logs)
+│   ├── Experimente ID 16 - 19 (autokeras Code and logs)
+├── Tabellen
+│   ├── Tabellen.xlsx (verschiedene Arbeitsblätter mit Experimentregister)
+│   ├── MNIST Ausreißer390.xlsx (wurde in der Arbeit verwendet)
+├── *.py (Python Code)
+├── requirements*.txt (Abhängigkeiten der dedizierten Umgebungen)
+├── LICENCE
+├── README.md
 └── .gitignore
 ```
 
